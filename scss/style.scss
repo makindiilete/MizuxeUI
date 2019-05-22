@@ -1,0 +1,110 @@
+$primary: #3292a6;
+$border-width: 5px;
+$primary-overlay:rgba(50,146,166,0.8);//the color here are the first 3 numbers, the fourth is the opacity which can be from 0 t0 1 where 1 is no opacity
+$btn-color: #dee2e6;
+$bg-color: #3292a6;
+
+body{
+  margin-top:105px;;
+}
+
+
+.navbar{
+  box-shadow: 2px 2px 5px $primary;
+  opacity: 0.9;
+}
+
+.nav-item{
+  font-size:1.4rem;
+  padding-right: 20px;
+}
+
+.navbar-toggler{
+  background-color: transparent;
+  border: $border-width solid transparent;
+  border-radius: 10px;
+}
+
+#showcase{
+  position:relative;
+  background-image:url('../img/mountains.jpg');
+  min-height:700px;
+}
+
+.primary-overlay{//We already set dark overlay in our document line 43, and we are only quoting it here using it to cover our image
+  background-color: $primary-overlay;
+  position:absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+}
+
+.readmorebtn{
+  border-radius: 20px; //corner radius
+  border-color: $btn-color;
+}
+
+.subscribe{
+  background: $primary;
+}
+
+.whyus{
+  width: 50%;
+  margin: auto;
+  border-bottom:1px #ddd solid; //This add a 1px thin line below the element and the width is 50% so it wont stretch across the whole page horizontally
+}
+
+#authors{
+  img{
+    margin-top: -50px;
+  }
+}
+
+.hover1:hover{
+  background: $primary;
+  color:rgb(255, 255, 255);
+
+  .fa{
+    color:#fff;
+
+  }
+}
+
+.hover2:hover{
+  background: $primary;
+  color:rgb(255, 255, 255);
+
+  .fa{
+    color:#fff;
+
+  }
+}
+
+.hover3:hover{
+  background: $primary;
+  color:rgb(255, 255, 255);
+
+  .fa{
+    color:#fff;
+
+  }
+}
+
+.hover4:hover{
+  background: $primary;
+  color:rgb(255, 255, 255);
+
+  .fa{
+    color:#fff;
+
+  }
+}
+
+
+
+.fa{
+  font-size: 25px;
+}
+
+
